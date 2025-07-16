@@ -18,7 +18,11 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  // ваш код...
+  if (!name) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
 /**
